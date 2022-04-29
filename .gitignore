@@ -1,0 +1,6 @@
+/.cypress-cucumber-preprocessorrc.json
+/.log/
+*~
+/cypress/videos/
+/node_modules/
+*#

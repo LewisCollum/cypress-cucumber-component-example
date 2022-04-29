@@ -1,0 +1,13 @@
+#+title: Cypress Cucumber Component Testing
+#+author: Lewis Collum
+Using React, Typescript, Cypress, Webpack, Cucumber.
+
+This allows the developer to change the =.feature= Gherkin file and immediately see the change reflected on the Cypress GUI.
+
+#+begin_src bash
+  npm i -D
+  npx cypress run-ct #for component tests
+  npx cypress run-ct #for integrations tests
+  npx cypress open-ct #for component GUI
+  npx cypress open #for integration GUI
+#+end_src

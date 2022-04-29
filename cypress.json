@@ -1,0 +1,12 @@
+{
+  "integrationFolder": "test/integration",  
+  "e2e": {
+    "testFiles": "**/*.feature"
+  },
+  "componentFolder": "test/component",  
+  "component": {
+    "testFiles": "**/*.feature"
+  },
+  "fixturesFolder": false,
+  "defaultCommandTimeout": 100
+}
